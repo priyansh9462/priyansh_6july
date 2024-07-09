@@ -1,0 +1,1211 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyONugajaPEqpmivMLmMEA6a",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/priyansh9462/priyansh_6july/blob/main/%20PYTHON%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "l_n98vUQ5D37",
+        "outputId": "1078769a-b6db-4a2a-c546-9601451d47a6"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello world\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"hello world\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x= 10\n",
+        "print(type(x))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QJlK09nN5rPK",
+        "outputId": "0039d8f4-9807-4e33-8922-c66c6d028f21"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'int'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "address=\"\"\"b35\n",
+        "basant bahar\n",
+        "tonk road jaipur\"\"\"\n",
+        "print(address)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OyEXt1xt6olm",
+        "outputId": "76091d43-6a40-4678-cf81-62bbea87d4fb"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "b35\n",
+            "basant bahar \n",
+            "tonk road jaipur\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# string formatting\n",
+        "year = 2024\n",
+        "company=\"regex software\"\n",
+        "print(\"Hey year is\",year)\n",
+        "print(\"hey year is\",year,\"company is\",company)\n",
+        "print(f\"hey year is {year} company is {company}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "i09zV8-M8Hkv",
+        "outputId": "7994a492-3810-41ad-8076-a294b1ec8ace"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hey year is 2024\n",
+            "hey year is 2024 company is regex software\n",
+            "hey year is 2024 company is regex software\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "username=\"regex\"\n",
+        "msg=f\"hey username {username}\"\n",
+        "\n",
+        "print(msg)\n",
+        "username=\"tushar\"\n",
+        "print(msg)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_204PGQw9ezx",
+        "outputId": "2967cd44-ce16-4f2b-885d-64436f63f78a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hey username regex\n",
+            "hey username regex\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "state = \"Rajasthan\"\n",
+        "state[2:5]"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "Y2o0EenQ-6_y",
+        "outputId": "ec35e30d-22da-41e2-af87-7b9c858e72d6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'jas'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 15
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "gRl4ydkzA1dS"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "state= \"RAJASTHAN\"\n",
+        "state[3:]"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "l4Lelm5QA3N6",
+        "outputId": "ec1e156a-2cf9-4ac9-ee1c-d311d93bfe0e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'ASTHAN'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 18
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "state=\"RAJASTHAN\"\n",
+        "state[-1:-4:-1]"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "iozXoj-5BHwW",
+        "outputId": "8e95b0c0-e5b7-44ff-c2c2-0c7a333c8d52"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'NAH'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 20
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#operator\n",
+        "#SYMBOL => TASK (OPERATION)\n",
+        "1+2"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "YoixjaJo-64b",
+        "outputId": "11475b2e-7b5e-489d-8923-4e12d17d8d63"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "invalid decimal literal (<ipython-input-1-0edac45f0f02>, line 2)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-1-0edac45f0f02>\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    3SYMBOL => TASK (OPERATION)\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid decimal literal\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "20/3\n",
+        "#ARITHMETIC OPERATOR\n",
+        "# +-\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4mrqEqx0_r0m",
+        "outputId": "c58cc8fc-347e-49b1-8f2e-8bd2a4f218fc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "6.666666666666667"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "20//3  #DIVISION\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_7_0j4VA_3RN",
+        "outputId": "6f036bdb-51af-4a93-9dca-0cc1231da315"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "6"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "20%3"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kZeoAy0-ACmD",
+        "outputId": "a60158a2-47d9-4239-fc15-df3efc7fbc54"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "2"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "10+2-24/2*6    #DIVIDE ALWAYS GIVES FLOATS VALUE\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "x2aslBKTAGTC",
+        "outputId": "9ae587fe-be91-4dcf-ba08-db5a96848301"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "-60.0"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "2**3 #MEANS 2 KI POWER 3"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "r3odVDePAUpb",
+        "outputId": "f6b6e244-bbf7-4911-8880-467e90414dfe"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "8"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#COMPARSION OPERATOR\n",
+        "10==210"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ut-3Q2EQBF1P",
+        "outputId": "8a19ec28-4659-401f-f198-cb16f472750d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 7
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#ASSIGNMENT OPERATOR\n",
+        "X= 10\n",
+        "X+5\n",
+        "print(X)   #because x value is assigned 10"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FU9wNdrVBKgn",
+        "outputId": "3df2ab84-cd50-4701-896c-0cb564d0e51c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=10\n",
+        "x=x+5\n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qgOQNQE5BhmW",
+        "outputId": "97d26b0c-291e-4bd7-d281-8383d67c9cf3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age=4\n",
+        "age/=1\n",
+        "print(age)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-MZm1slxB3Qz",
+        "outputId": "33263074-5a0b-467d-c28e-d966f22bce08"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "4.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#LOGICAL OPERATOR\n",
+        "#and or not\n",
+        "x=10\n",
+        "x<5"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OpqITpwhB82q",
+        "outputId": "2336890b-6ad8-4857-8f38-1c76f21196cb"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 11
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=10\n",
+        "x>5  and x<15  #both should correct"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4NLm7NtVCMsZ",
+        "outputId": "229939c8-087a-4d9d-9e4c-cd62deac585b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 12
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=10\n",
+        "x>5 or x>15  #or one should correct"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wH83l-HjCgHN",
+        "outputId": "95a1c1a2-0b53-4411-df39-9c477a452b99"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 13
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# MEMBERSHIP OPERATOR\n",
+        "\"J\" in \"JAIPUR\""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pcOefNxhCsXS",
+        "outputId": "840c754c-b176-4505-aaed-6141bf724e48"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 17
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"ir\" not in \"jaipur\""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bmgjADvLDVCn",
+        "outputId": "09436271-b9a4-4a4b-f43e-1b9b71145808"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 18
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "type(x) is not str #identity operator"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kweQ1e9IDhP9",
+        "outputId": "59758aed-d906-4716-d236-3b67d3807c77"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 19
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=10\n",
+        "type(x) is int"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TuF0fxVIEDB2",
+        "outputId": "7e258a5c-ffd4-4abc-a7a1-8bc6f0bc9cc9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 20
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#conditional statement\n",
+        "#if statement\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "-gdRSTF1EIzG"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=10\n",
+        "if(x>5):\n",
+        "print(\"hello\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "NtWCdNpVFTgc",
+        "outputId": "89472359-a3ee-470d-d44a-e5ed35ac75a9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "IndentationError",
+          "evalue": "expected an indented block after 'if' statement on line 2 (<ipython-input-21-d7a2ce2efba8>, line 3)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-21-d7a2ce2efba8>\"\u001b[0;36m, line \u001b[0;32m3\u001b[0m\n\u001b[0;31m    print(\"hello\")\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m expected an indented block after 'if' statement on line 2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=10\n",
+        "if(x>5):\n",
+        "\n",
+        "  print(\"hello\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kYCn9U37Fkih",
+        "outputId": "3dc518d8-4774-445f-f5b1-7d622654a841"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=2\n",
+        "if(x>5):\n",
+        "    print(\"Hello\")\n",
+        "else:\n",
+        "  print(\"hey\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3loPpIDWF_yx",
+        "outputId": "fea4576d-2172-4674-9d11-fa4f1003fc22"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hey\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=10\n",
+        "if(x/5):\n",
+        "  print(\"yes divisible by 5\")\n",
+        "else:\n",
+        "  print(\"not divisible by 5\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "z0mvW_w4GnFE",
+        "outputId": "42c02327-1270-4dba-f1f7-2a11d2b5f089"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "yes divisible by 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=12\n",
+        "if(x/2 and x/3):\n",
+        "  print(\"yes it is divisble by both 2 and 3\")\n",
+        "else:\n",
+        "  print(\"no it is not divisible by both 2 and 3\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "F4mggKEIHnFQ",
+        "outputId": "de15d475-3c74-41bf-e991-e798cb94e2f9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "yes it is divisble by both 2 and 3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=5,15\n",
+        "if(x==5):\n",
+        "  print(x)\n",
+        "else:\n",
+        "  print(\"no\")\n",
+        "if(x==15):\n",
+        "  print(x)\n",
+        "else:\n",
+        "  print(\"No\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4wijhZf6Io_-",
+        "outputId": "a224d4a1-a6dc-414d-9348-517c5d6bd53d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "no\n",
+            "No\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=2\n",
+        "if(x==10):\n",
+        "  print(\"value is 10\")\n",
+        "elif(X==15):\n",
+        "  print(\"value is 15\")\n",
+        "else:\n",
+        "  print(\"hey\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eTc9p5E0Ju-Y",
+        "outputId": "9db6f599-8525-4990-b88c-9c00ea86cc82"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hey\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=10\n",
+        "y=2\n",
+        "z=5\n",
+        "if(x>y and x>z):\n",
+        "  print(\"x is greater than y and z\")\n",
+        "elif(y>z and y>x):\n",
+        "  print(\"y is greater than x and z\")\n",
+        "else:\n",
+        "  print(\"z is greater than x and y\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DgKDoaq8KM9U",
+        "outputId": "9ae2fd4c-60c6-4539-f1bb-0905ec11ef0e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "x is greater than y and z\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#5 => aadhar\n",
+        "#18 > voting\n",
+        "age=5\n",
+        "if(age>=5):\n",
+        "  print(\"aadhar card\")\n",
+        "else:\n",
+        "  print(\"no aadhar card\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WQ4bPpAfLdZU",
+        "outputId": "a804a103-1a7b-4f3d-e58f-91f9fcfc7bb2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "aadhar card\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=input(\"enter a number\")\n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-lJILj-KMcE1",
+        "outputId": "a2d6b403-ca9c-4e4f-de5a-2e09c652a1ea"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a number10\n",
+            "10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "que 1 #age >18 =>young\n",
+        "# 25 -35 =>adult\n",
+        "# 35-50 =>senior\n",
+        "#50+  =>senior citzen\n",
+        "#othercase =>child\n"
+      ],
+      "metadata": {
+        "id": "DKrYvM2RMlva"
+      },
+      "execution_count": 32,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "que 2 #10 => 50\n",
+        "      #upto 30 =>30\n",
+        "      #and for the next order value => rs 10"
+      ],
+      "metadata": {
+        "id": "_Mzi-xhXNHDC"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "que 3 # 1 is input  by user python make folder in desktop\n",
+        "# if user give 2 then make file\n",
+        "# if user guve 3 then shutdown system"
+      ],
+      "metadata": {
+        "id": "TMXtGfhTNX-y"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=input(\"Enter age=\")\n",
+        "x=int(x)\n",
+        "if (x>50):\n",
+        "  print(\"Senior Citizen\")\n",
+        "elif(x>=35):\n",
+        "  print(\"Senior\")\n",
+        "elif(x>=25):\n",
+        "  print(\"Adult\")\n",
+        "elif(x>18):\n",
+        "  print(\"Young\")\n",
+        "else:\n",
+        "  print(\"Child\")"
+      ],
+      "metadata": {
+        "id": "fRqbBmXtL1zx",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "fda3e80c-eb8d-40bb-ee76-2a781754f68f"
+      },
+      "execution_count": 31,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter age=25\n",
+            "Adult\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=input(x)\n",
+        "x=int(x)\n",
+        "if(x=1):\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "lPRkz16FLqsG"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def calculate_cost(num_orders):\n",
+        "    if num_orders <= 10:\n",
+        "        return num_orders * 50\n",
+        "    elif 11 <= num_orders <= 30:\n",
+        "        return 10 * 50 + (num_orders - 10) * 30\n",
+        "    else:\n",
+        "        return 10 * 50 + 20 * 30 + (num_orders - 30) * 30\n",
+        "\n",
+        "num_orders = int(input(\"Enter the number of orders: \"))\n",
+        "total_cost = calculate_cost(num_orders)\n",
+        "print(f\"Total cost: ${total_cost:.2f}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5R3qD7xiQ78v",
+        "outputId": "d13c7731-78f3-4bdc-9d53-bf2b6abf7589"
+      },
+      "execution_count": 58,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the number of orders: 25\n",
+            "Total cost: $950.00\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import os\n",
+        "import sys\n",
+        "\n",
+        "def create_folder():\n",
+        "    folder_name = \"New Folder\"\n",
+        "    desktop_path = os.path.join(os.path.join(os.environ[\"USERPROFILE\"]), \"Desktop\")\n",
+        "    folder_path = os.path.join(desktop_path, folder_name)\n",
+        "    try:\n",
+        "        os.mkdir(folder_path)\n",
+        "        print(f\"Folder '{folder_name}' created on desktop!\")\n",
+        "    except FileExistsError:\n",
+        "        print(f\"Folder '{folder_name}' already exists on desktop!\")\n",
+        "\n",
+        "def create_file():\n",
+        "    file_name = \"new_file.txt\"\n",
+        "    desktop_path = os.path.join(os.path.join(os.environ[\"USERPROFILE\"]), \"Desktop\")\n",
+        "    file_path = os.path.join(desktop_path, file_name)\n",
+        "    try:\n",
+        "        with open(file_path, \"w\") as f:\n",
+        "            f.write(\"\")  # create an empty file\n",
+        "        print(f\"File '{file_name}' created on desktop!\")\n",
+        "    except FileExistsError:\n",
+        "        print(f\"File '{file_name}' already exists on desktop!\")\n",
+        "\n",
+        "def shutdown_system():\n",
+        "    os.system(\"shutdown /s /t 0\")\n",
+        "    print(\"System shutting down...\")\n",
+        "\n",
+        "def main():\n",
+        "    while True:\n",
+        "        user_input = int(input(\"Enter your choice (1, 2, or 3): \"))\n",
+        "        if user_input == 1:\n",
+        "            create_folder()\n",
+        "        elif user_input == 2:\n",
+        "            create_file()\n",
+        "        elif user_input == 3:\n",
+        "            shutdown_system()\n",
+        "        else:\n",
+        "            print(\"Invalid input. Please try again!\")\n",
+        "\n",
+        "if __name__ == \"__main__\":\n",
+        "    main()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 339
+        },
+        "id": "lP13zi3gU4GE",
+        "outputId": "317048cb-18ca-4a5b-fc89-6f21ea9c3500"
+      },
+      "execution_count": 64,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter your choice (1, 2, or 3): 1\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "KeyError",
+          "evalue": "'USERPROFILE'",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyError\u001b[0m                                  Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-64-429b38de054e>\u001b[0m in \u001b[0;36m<cell line: 41>\u001b[0;34m()\u001b[0m\n\u001b[1;32m     40\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     41\u001b[0m \u001b[0;32mif\u001b[0m \u001b[0m__name__\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;34m\"__main__\"\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 42\u001b[0;31m     \u001b[0mmain\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;32m<ipython-input-64-429b38de054e>\u001b[0m in \u001b[0;36mmain\u001b[0;34m()\u001b[0m\n\u001b[1;32m     31\u001b[0m         \u001b[0muser_input\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Enter your choice (1, 2, or 3): \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     32\u001b[0m         \u001b[0;32mif\u001b[0m \u001b[0muser_input\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;36m1\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 33\u001b[0;31m             \u001b[0mcreate_folder\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     34\u001b[0m         \u001b[0;32melif\u001b[0m \u001b[0muser_input\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;36m2\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     35\u001b[0m             \u001b[0mcreate_file\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m<ipython-input-64-429b38de054e>\u001b[0m in \u001b[0;36mcreate_folder\u001b[0;34m()\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0mcreate_folder\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m     \u001b[0mfolder_name\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m\"New Folder\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 6\u001b[0;31m     \u001b[0mdesktop_path\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mos\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mpath\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mjoin\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mos\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mpath\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mjoin\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mos\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0menviron\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"USERPROFILE\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m\"Desktop\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      7\u001b[0m     \u001b[0mfolder_path\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mos\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mpath\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mjoin\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mdesktop_path\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mfolder_name\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      8\u001b[0m     \u001b[0;32mtry\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.10/os.py\u001b[0m in \u001b[0;36m__getitem__\u001b[0;34m(self, key)\u001b[0m\n\u001b[1;32m    678\u001b[0m         \u001b[0;32mexcept\u001b[0m \u001b[0mKeyError\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    679\u001b[0m             \u001b[0;31m# raise KeyError with the original key value\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 680\u001b[0;31m             \u001b[0;32mraise\u001b[0m \u001b[0mKeyError\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mkey\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    681\u001b[0m         \u001b[0;32mreturn\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mdecodevalue\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    682\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyError\u001b[0m: 'USERPROFILE'"
+          ]
+        }
+      ]
+    }
+  ]
+}
